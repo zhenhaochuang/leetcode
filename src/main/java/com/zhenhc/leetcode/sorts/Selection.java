@@ -2,6 +2,10 @@ package com.zhenhc.leetcode.sorts;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序
+ * @param <T>
+ */
 public class Selection<T extends Comparable<T>> extends Sort<T> {
     @Override
     public void sort(T[] nums) {
