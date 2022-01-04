@@ -1,5 +1,7 @@
 package com.zhenhc.leetcode.medium;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -30,7 +32,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public static void main(String[] args) {
-        String str = "abcabcbb";
+        String str = RandomStringUtils.randomAlphabetic(10);
+        System.out.println(str);
         System.out.println(lengthOfLongestSubstring(str));
     }
 }
