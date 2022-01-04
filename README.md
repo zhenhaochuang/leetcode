@@ -15,6 +15,7 @@ com.zhenhc.leetcode
 ├── medium -- leetcode中等题目
 ├── hard -- leetcode困难题目
 ├── sorts -- 排序算法
+├── others -- 其他算法
 └── strings -- 字符串算法
 ```
 
