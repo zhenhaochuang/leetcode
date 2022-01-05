@@ -24,3 +24,4 @@ com.zhenhc.leetcode
 
 - [leetcode题库](https://leetcode-cn.com/problemset/all/)
 - [算法目录](https://www.cyc2018.xyz/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80/%E7%AE%97%E6%B3%95%20-%20%E7%9B%AE%E5%BD%95.html)
+- [java leetcode TreeNode类、ListNode类的实现](https://www.cnblogs.com/grein/p/11943816.html)
