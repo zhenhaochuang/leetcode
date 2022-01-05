@@ -3,9 +3,14 @@ package com.zhenhc.leetcode.medium;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * IP 地址划分
+ */
 public class RestoreIPAddresses {
     public static void main(String[] args) {
-
+        String s = "25525511135";
+        RestoreIPAddresses ipAddresses = new RestoreIPAddresses();
+        System.out.println(ipAddresses.restoreIpAddresses(s));
     }
     public List<String> restoreIpAddresses(String s) {
         List<String> addresses = new ArrayList<>();
