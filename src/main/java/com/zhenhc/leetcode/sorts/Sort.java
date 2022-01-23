@@ -1,6 +1,8 @@
 package com.zhenhc.leetcode.sorts;
 
 public abstract class Sort<T extends Comparable<T>> {
+    protected static Integer[] nums = {4,87,90,34,23,6};
+
     public abstract void sort(T[] nums);
 
     protected boolean less(T v, T w) {

@@ -30,8 +30,9 @@ public class Shell<T extends Comparable<T>> extends Sort<T> {
 
     public static void main(String[] args) {
         Shell<Integer> shell = new Shell<>();
-        Integer[] nums = {4,87,90,34,23,6};
+        //Integer[] nums = {4,87,90,34,23,6};
+        System.out.println("待排序数组："+Arrays.toString(nums));
         shell.sort(nums);
-        System.out.println(Arrays.toString(nums));
+        System.out.println("已排序数组："+Arrays.toString(nums));
     }
 }
