@@ -1,9 +1,24 @@
 package com.zhenhc.leetcode.medium;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
+/**
+ * 146. LRU 缓存
+ */
 public class LRUCache {
+    public static void main(String[] args) {
+        List<Object> list = new ArrayList<>();
+        LRUCache lruCache = new LRUCache(2);
+        lruCache.put(1,1);
+        lruCache.put(2,2);
+        System.out.println(lruCache.get(1));
+        lruCache.put(3,3);
+        System.out.println(lruCache.get(2));
+        lruCache.put(4,4);
+        System.out.println(lruCache.get(1));
+        System.out.println(lruCache.get(3));
+        System.out.println(lruCache.get(4));
+    }
     class DLinkedNode {
         int key;
         int value;
